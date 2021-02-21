@@ -1,0 +1,31 @@
+.red{
+	background:red;
+	height:1000px;
+	width:20px;
+}
+.yellow{
+	background:yellow;
+	height:1000px;
+	width:20px;
+}
+.blue{
+	background:blue;
+	height:1000px;
+	width:20px;
+}
+<br/>
+.red2{
+	background:red;
+	height:10000px;
+	width:80px;
+}
+.yellow2{
+	background:yellow;
+	height:1000px;
+	width:20px;
+}
+.blue2{
+	background:blue;
+	height:1000px;
+	width:20px;
+}
