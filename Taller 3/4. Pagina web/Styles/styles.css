@@ -1,0 +1,104 @@
+	/* JUAN CAMILO ACEVEDO NOREÑA - TECNOLOGIA EN DISEÑO Y DESARROLLO WEB */
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	body {
+		width: 100%;
+		height: auto;
+		background-color: #90e0ef;
+	}
+
+	.contenedor {
+		width: 100%;
+		background-color: #caf0f8;
+		overflow: hidden;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	#header {
+		width: 100%;
+		height: 20%;
+		background-color:#90e0ef;
+	}
+
+	#left {
+		width:15%;
+		height: 520px;
+        background-color: 90e0ef;
+		float: left;
+	}
+
+	#center {
+		width:70%;
+		height: 520px;
+		background-color: #90e0ef;
+		float: left;
+	}
+
+	#right {
+		width:15%;
+		height: 520px;
+        background-color: fdfffc;
+		float: left;
+	}
+
+	#footer {
+		width: 100%;
+		height:20%;
+        background-color: #fdfffc;
+        clear:both;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+
+
+	h1 {
+		text-align: center;
+		color: #FFFFFF;
+	}
+
+	h2 {
+		text-align: left;
+		margin-left: 10px;
+		color: #fdfffc;
+	}
+
+	ul {
+		margin-left: 30px;
+		color: #fdfffc;
+	}
+
+	li {
+		margin: 10px;
+	}
+
+	#alista {
+		color: black;
+		font-size: 20px;
+	}
+
+
+
+	#center p{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	#center img {
+		display: block;
+		margin: 0 auto;
+	}
+	#center h2 {
+		text-align: center;
+	}
+	#center a {
+		display: block;
+		text-align: center;
+	}

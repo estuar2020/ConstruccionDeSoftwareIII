@@ -1,0 +1,36 @@
+.color1{
+    width: 1.6%;
+    background-color: red;
+    height: 500px;
+    float: left;
+}
+.color2{
+    width: 1.6%;
+    background-color: blue;
+    height: 500px;
+    float: left;
+}
+.color3{
+    width: 5%;
+    background-color: yellow;
+    height: 500px;
+    float: left;
+}
+.color4{
+    width: 7%;
+    background-color: red;
+    height: 500px;
+    float: left;
+}
+.color5{
+    width: 12%;
+    background-color: blue;
+    height: 500px;
+    float: left;
+}
+.color6{
+    width: 20%;
+    background-color: yellow;
+    height: 500px;
+    float: left;
+}

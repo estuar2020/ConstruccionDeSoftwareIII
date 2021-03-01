@@ -1,0 +1,20 @@
+body{
+	background-color:rgb(caf0f8);
+	text-align:center;
+	font-weight:bold;
+	margin: auto;
+}
+.tabla{
+	margin: 0px auto;
+	border:1px solid;
+	border-collapse:collapse;
+}	
+.titulos{
+	background-color:blue;
+	color:white;
+	
+}	
+.tabla th{
+	border:1px solid;
+}	
+
