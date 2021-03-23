@@ -1,0 +1,9 @@
+body{
+	background-color:RGB(128, 255, 170);
+	text-align:center;
+	font-weight:bold;
+	font-family:Copperplate, Papyrus, fantasy;
+}
+div#titulo{
+	background-color:rgb(179, 255, 204);
+}	

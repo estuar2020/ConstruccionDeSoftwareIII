@@ -1,0 +1,152 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {font-size: 66px; font-weight: 600; line-height: 80px; }
+
+h2 {font-size: 48px; margin-bottom: 30px: }
+
+p{
+    font-size: 18px; 
+    color: #9999;
+    line-height: 1.8;
+    margin-bottom: 0;
+
+}
+
+section {
+    padding: 120px; 0;
+}
+
+.topmargin-xs {margin-top: 15px; }
+.topmargin-sn {margin-top: 30px; }
+.topmargin-lg {margin-top: 60px; }
+
+.btn{
+    font-size: 14px;
+    padding: 15px 26px;
+    min-width: 160px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.btn-light {
+    background-color: #ffff;
+    color: #1a1a1a;
+    border: 2px solid #ffff;
+}
+
+.btn i {font-size: 14px; margin-left: 5px;}
+
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba {0, 0, 0, .05} 
+    min-height: 100px:
+}
+
+.nav-link { color: #1a1a1a; }
+
+
+.logo {
+    min-width: 120px;
+    max-width: 140px;
+}
+
+.navbar-toggler {font-size: 40px; }
+.navbar-toggler:focus {outline: none; }
+
+#hero {
+    background-image: url('images/teslafondo.jpg');
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;    
+    color: #ffffff; 
+}
+
+#hero p {
+    color: #ffff;
+}
+.content-center {
+    max-width: 1000px; 
+    margin: 0 auto 80px auto;
+    text-align: center;
+}
+
+
+.historia-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+}
+
+.historia-container img {
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.historia-container:hover img{
+    -mox-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.historia-details {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+
+
+.historia-details a h2, .historia-details a p {
+    color: #ffff;
+}
+
+.carousel-indicatiors li {
+    background-color: #1a1a1a;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    margin: 0 8px;
+    
+}
+
+
+#footer {
+    padding: 80px 0;
+    text-align: center;
+    color: #ffff;
+    
+}
+
+#footer a {
+    color: #ffff;
+}
+
+#footer a:hover {
+    color: #ffff;
+}
+
+.footer .list-inline .list-inline-item {
+    padding: 10px 15px;
+    
+}
+
+.bg-dark { background-color: #1a1a1a important;
+    
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    h1{font-size: 40px; line-height: normal;}
+    p{font-size: 20px; line-height: inherit;}
+    
+}
+
+
+
+
+

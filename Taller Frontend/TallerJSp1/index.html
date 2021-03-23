@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Operaciones</title>
+	<link rel="stylesheet" href="style/estilo.css" type="text/css">
+</head>
+<body>
+	<div id="titulo">
+		<h1><marquee>OPERACIONES BASICAS</marquee></h1>
+	</div>
+    <p>Ingrese dos números:</p>  
+	<div onkeypress="return soloNum(event);"  required>
+		<label>Numero 1: </label>
+		<input id="num1"><br>
+		<label>Numero 2: </label> 
+		<input id="num2"><br>
+	</div>
+	<P>Seleccione la operacion que desee realizar:</p>
+    <button type="button" onclick="campoVacio(); mySuma()">Sumar</button> 
+	<button type="button" onclick="campoVacio(); myResta()">Restar</button>
+	<button type="button" onclick="campoVacio(); myMultiplicacion()">Multiplicar</button>
+	<button type="button" onclick="campoVacio(); myDivision()">Dividir</button>
+	<button type="button" onclick="campoVacio(); myPotencia()">Potencia</button>
+	<P>El resultado es:</p>
+	<p id="sumando"></p>  
+	<p id="restando"></p>
+    <p id="multiplicando"></p>
+    <p id="dividiendo"></p>
+	<p id="potenciando"></p>
+	<div id="titulo">
+		<P>Elaborado por Esteban Betancur Muñoz Y Steward Camilo Gil Zapata</P>
+	</div>
+    <script src="script/mensaje.js"></script>
+</body>
+</html>
